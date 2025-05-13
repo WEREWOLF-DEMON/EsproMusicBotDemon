@@ -10,9 +10,9 @@ from pyrogram.types import (
     Message,
 )
 from config import LOGGER_ID as LOG_GROUP_ID
-from Anuragoprepo import app
-from Anuragoprepo.utils.database import get_assistant
-from Anuragoprepo.utils.database import delete_served_chat
+from EsproMusic import app
+from EsproMusic.utils.database import get_assistant
+from EsproMusic.utils.database import delete_served_chat
 
 photo = [
     "https://graph.org/file/872dc8af2a36bed43b9b6.jpg",
