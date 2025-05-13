@@ -1,13 +1,13 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from BrandrdXMusic import app
+from EsproMusic import app
 from pyrogram import *
 from pyrogram.types import *
 from config import OWNER_ID
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.raw.functions.phone import CreateGroupCall, DiscardGroupCall
 from pyrogram.raw.types import InputGroupCall
-from Anuragoprepo.utils.database import get_assistant
+from EsproMusic.utils.database import get_assistant
 from telethon.tl.functions.phone import (
     CreateGroupCallRequest,
     DiscardGroupCallRequest,
