@@ -1,4 +1,4 @@
-from Anuragoprepo import app
+from EsproMusic import app
 from pyrogram import Client, filters
 from pyrogram.errors import RPCError
 from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, InlineKeyboardButton
@@ -52,8 +52,8 @@ async def get_userinfo_img(
 
 # --------------------------------------------------------------------------------- #
 
-bg_path = "Anuragoprepo/assets/userinfo.png"
-font_path = "Anuragoprepo/assets/hiroko.ttf"
+bg_path = "EsproMusic/assets/userinfo.png"
+font_path = "EsproMusic/assets/hiroko.ttf"
 
 # --------------------------------------------------------------------------------- #
 
