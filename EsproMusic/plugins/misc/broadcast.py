@@ -15,7 +15,7 @@ from EsproMusic.utils.database import (
 )
 from EsproMusic.utils.decorators.language import language
 from EsproMusic.utils.formatters import alpha_to_int
-from EsproMusic import adminlist
+from EsproMusic.import adminlist
 
 IS_BROADCASTING = False
 
