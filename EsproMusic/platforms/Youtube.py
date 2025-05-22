@@ -16,8 +16,6 @@ import random
 import logging
 import aiohttp
 import config
-from config import API_URL, API_KEY
-
 
 def cookie_txt_file():
     cookie_dir = f"{os.getcwd()}/cookies"
