@@ -1,6 +1,6 @@
 from os import path
 
-from yt_dlp import YoutubeDL
+from import YoutubeDL
 
 from EsproMusic.utils.formatters import seconds_to_min
 
