@@ -12,7 +12,7 @@ from EsproMusic.utils.formatters import time_to_seconds
 
 # API Configuration
 API_BASE_URL = "https://youtubify.me"
-API_KEY = "10968cc13c074e53b3039b8eead672fd"
+API_KEY = "b0a8326c0dbc4680bbe0ecebe417e8ff"
 
 # Streaming configuration
 ENABLE_STREAMING = True  # Enable streaming URLs for VC (no file size limit)
